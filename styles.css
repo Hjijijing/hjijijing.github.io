@@ -274,7 +274,8 @@ body::-webkit-scrollbar {
 }
 
 
-#projects a {
+
+#projects a, #contact a {
     color: inherit;
 }
 
