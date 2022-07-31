@@ -242,7 +242,7 @@ body::-webkit-scrollbar {
         position: absolute;
         width: 100%;
         height: 100%;
-        object-fit: contain;
+        object-fit: cover;
         justify-self: initial;
         align-self: initial;
     }
@@ -273,6 +273,10 @@ body::-webkit-scrollbar {
     
 }
 
+
+#projects a {
+    color: inherit;
+}
 
 @media only screen and (min-width: 1400px) {
     #fronttext {
